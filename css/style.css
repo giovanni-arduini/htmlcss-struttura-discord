@@ -10,7 +10,31 @@ body {
   background-color: aliceblue;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 900px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .link {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
