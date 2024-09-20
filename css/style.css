@@ -28,6 +28,11 @@ a {
 }
 
 /* HEADER */
+
+.main-header {
+  background-color: rgb(176, 182, 182);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
