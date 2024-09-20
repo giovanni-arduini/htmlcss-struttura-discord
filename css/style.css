@@ -148,6 +148,7 @@ a {
 
 .debug .row {
   border: 2px dotted rgb(245, 0, 0);
+  flex-grow: 1;
 }
 
 .debug .col {
