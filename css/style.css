@@ -92,6 +92,7 @@ a {
 
 /* MAIN */
 
+/* SECTION 1 */
 .section-1 {
   background-color: rgb(26, 26, 191);
   min-height: 300px;
@@ -111,9 +112,10 @@ a {
   background-color: rgb(255, 147, 242);
 }
 
-.section-2 {
+/* SECTION 2 */
+/* .section-2 {
   min-height: 350px;
-}
+} */
 
 .section-2 .container {
   display: flex;
@@ -122,6 +124,22 @@ a {
 
 .section-2 .row {
   min-height: 300px;
+}
+
+/* SECTION 3 */
+
+.section-3 {
+  /* min-height: 350px; */
+  background-color: rgb(223, 223, 223);
+}
+
+.section-3 .container {
+  display: flex;
+  padding: 20px 0;
+}
+.section-3 .row {
+  min-height: 300px;
+  flex-direction: row-reverse;
 }
 
 /* DEBUG RULES */
