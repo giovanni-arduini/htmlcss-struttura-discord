@@ -30,6 +30,7 @@ a {
 /* HEADER */
 
 .main-header {
+  padding: 20px 80px;
   background-color: rgb(176, 182, 182);
 }
 
@@ -38,8 +39,20 @@ a {
   justify-content: space-between;
 }
 
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-4 {
+  flex-grow: 4;
+}
+
 .navbar .link {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+.navbar .login {
+  text-align: end;
 }
